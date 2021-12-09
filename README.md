@@ -17,7 +17,8 @@ The neccessary packages to be installed include the following:
 - scipy 
 - The auxillary scripts are also imported.
 
-
+The user can explore this project using Tennessee and New York COVID-19 data named as `tndata.csv` and `tndata1.csv` (for Tennessee) and `nyc_data_cases.csv` for New York.
+The `tndata.csv` used for all models while `tndata1.csv` used for parameter estimation for EINN.
 
 A piece of text is included at the top of the notebook explaining what the block of code is doing. 
 
