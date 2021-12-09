@@ -2,7 +2,7 @@
 
 In the first place, clone the repository via `https://github.com/ttorku/Fall-2021-DL-Demo.git` on the command line or by downloading the zip file from the root page of this repository. You will have immediate access to all the files needed to run this project. 
 
-The JupyterLab notebook named  ` Data_Driven_Simulation.ipynb` is used to run all the output as contained in the paper: `https://github.com/ttorku/Fall-2021-DL-Demo/blob/main/Deep_Learning_Research_Paper.pdf`. The auxillary scripts for running the notebook include: `EINN_model` for parameter estimation; `rnn_models` for RNN such as LSTM, BiLSTM and GRU as well as ResNet-GRU, ResNet-LSTM, ResNet-BiLSTM and confidence interval; and `cross_val` for cross validation
+The JupyterLab notebook named  ` Data_Driven_Simulation.ipynb` is used to run most of the output contained in the paper: `https://github.com/ttorku/Fall-2021-DL-Demo/blob/main/Deep_Learning_Research_Paper.pdf`. The auxillary scripts for running the notebook include: `EINN_model` for parameter estimation; `rnn_models` for RNN such as LSTM, BiLSTM and GRU as well as ResNet-GRU, ResNet-LSTM, ResNet-BiLSTM ; and `cross_val` for cross validation
 
 The neccessary packages to be installed include the following:
 - Pandas
@@ -27,9 +27,9 @@ The next block of codes describe the results from all the RNN models-GRU, LSTM a
 
 The Error Metrics such as **RMSE, MAPE and EV** are obtained from these RNN and Hybrid Approaches.
 
-A plot is shown to describe the results. The confidence interval for short term-prediction for `ResNet-GRU` is shown. 
+A plot is shown to describe the results. 
 
-The next block of codes implements the cross validation followed by the EINN implementation of vaccine model without and with vaccine given efficacy of $94\%$. 
+The next block of codes implements the cross validation followed by the EINN implementation of vaccine model without and with vaccine given efficacy of $94\%. 
 
 
 
